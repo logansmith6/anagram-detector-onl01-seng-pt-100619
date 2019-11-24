@@ -16,7 +16,7 @@ class Anagram
        temp2 = winner.split("")
 
        if temp2.sort == temp1.sort
-         winners << temp2.join
+         winners[0] = temp2.join
        end
 binding.pry
        winners
