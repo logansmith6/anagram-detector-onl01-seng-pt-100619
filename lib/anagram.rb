@@ -9,7 +9,7 @@ class Anagram
   end
 
   def match(possible_anagrams)
-      winners = []
+     winners = []
      temp1 = @word.split("")
 
      possible_anagrams.each do |winner|
