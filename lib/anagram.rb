@@ -9,7 +9,8 @@ class Anagram
   end
 
   def match(possible_anagrams)
-    temp = @word.split(" ")
+
+     temp = @word.split("")
     binding.pry
   end
 
