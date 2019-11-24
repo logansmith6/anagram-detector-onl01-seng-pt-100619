@@ -5,12 +5,12 @@ class Anagram
   attr_accessor :word
 
   def initialize(word)
-    @word = word 
+    @word = word
   end
 
   def match(possible_anagrams)
     temp = @word.split(" ")
-    binding.pry 
-  end 
-  
+    binding.pry
+  end
+
 end
