@@ -16,16 +16,16 @@ class Anagram
        temp2 = winner.split("")
 
        if temp2.sort == temp1.sort
-         @@winners << temp2 
+         @@winners << temp2
        end
 
        @@winners
-         
+
      end
-     
+
     binding.pry
 
-    
+
   end
 
 end
