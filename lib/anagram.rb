@@ -18,7 +18,7 @@ class Anagram
        if temp2.sort == temp1.sort
          winners << temp2.join
        end
-#binding.pry
+binding.pry
        winners
 
      end
