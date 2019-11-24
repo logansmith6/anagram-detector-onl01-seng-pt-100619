@@ -3,13 +3,13 @@ require 'pry'
 class Anagram
 
   attr_accessor :word
-  winners = []
+  
   def initialize(word)
     @word = word
   end
 
   def match(possible_anagrams)
-
+      winners = []
      temp1 = @word.split("")
 
      possible_anagrams.each do |winner|
