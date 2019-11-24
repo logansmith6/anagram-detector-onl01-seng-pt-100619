@@ -19,10 +19,10 @@ class Anagram
          winners[0] = temp2.join
        end
 #binding.pry
-       winners
+
 
      end
-
+winners
     #binding.pry
 
 
