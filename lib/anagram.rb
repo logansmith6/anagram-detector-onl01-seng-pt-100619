@@ -3,7 +3,7 @@ require 'pry'
 class Anagram
 
   attr_accessor :word
-  @@winners = []
+  winners = []
   def initialize(word)
     @word = word
   end
@@ -16,10 +16,10 @@ class Anagram
        temp2 = winner.split("")
 
        if temp2.sort == temp1.sort
-         @@winners << temp2
+         winners << temp2
        end
 
-       @@winners
+       winners
 
      end
 
